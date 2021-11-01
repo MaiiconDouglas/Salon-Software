@@ -1,6 +1,6 @@
 const mongoose= require('mongoose');
-const URI = '';
-
+const URI = 'mongodb+srv://salaoUser:tMFTH3u5gNRd5Jiy@maiicondouglasd.j6tba.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+// senha da base de dados tMFTH3u5gNRd5Jiy
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
