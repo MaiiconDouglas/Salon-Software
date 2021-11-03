@@ -15,9 +15,8 @@ router.post('/', async (req, res) => {
   }
 });
 
-/*
-  FAZER NA #01
-*/
+/*  FAZER NA #01*/
+
 router.get('/servicos/:salaoId', async (req, res) => {
   try {
     const { salaoId } = req.params;
@@ -35,9 +34,7 @@ router.get('/servicos/:salaoId', async (req, res) => {
   }
 });
 
-/*
-  FAZER NA #01
-*/
+/*  FAZER NA #01 */
 router.post('/filter/:id', async (req, res) => {
   try {
     const salao = await Salao.findById(req.params.id).select(req.body.fields);

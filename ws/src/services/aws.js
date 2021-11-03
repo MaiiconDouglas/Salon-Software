@@ -1,5 +1,7 @@
 const AWS = require('aws-sdk');
 
+// Gerancia o pagamento 
+
 module.exports = {
   IAM_USER_KEY: '',
   IAM_USER_SECRET: '',
